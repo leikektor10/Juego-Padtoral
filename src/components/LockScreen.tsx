@@ -68,7 +68,7 @@ export function LockScreen({ time }: { time: string }) {
 
   if (mode === 'wallpaper') {
     return (
-      <div className="lock wallpaper-only" style={{ backgroundImage: `url(${wallpaper})` }}>
+      <div className="lock wallpaper-only" style={{ backgroundImage: `url("${wallpaper}")` }}>
         <span className="sr-only">
           Fondo de pantalla: una foto de cumpleaños. Un chico y una niña con coletas junto a una tarta con una vela con el número 9. Una pancarta
           dice «¡Feliz cumple, enana! 14 · 06». En la tarta pone «Lucía · 9».
@@ -81,7 +81,7 @@ export function LockScreen({ time }: { time: string }) {
   }
 
   return (
-    <div className="lock" style={{ backgroundImage: `url(${wallpaper})` }}>
+    <div className="lock" style={{ backgroundImage: `url("${wallpaper}")` }}>
       <div className="lock-shade" />
       {mode === 'lock' ? (
         <div className="lock-inner">

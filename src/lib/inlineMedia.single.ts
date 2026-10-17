@@ -4,6 +4,6 @@ const raw = import.meta.glob('../../public/media/fotos/*.svg', { query: '?raw', 
 export const INLINE_MEDIA: Record<string, string> = Object.fromEntries(
   Object.entries(raw).map(([path, svg]) => [
     `media/fotos/${path.split('/').pop()}`,
-    `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`,
+    `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg).replace(/[()'!*]/g, (c) => `%${c.charCodeAt(0).toString(16).toUpperCase()}`)}`,
   ]),
 );

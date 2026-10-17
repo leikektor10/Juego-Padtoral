@@ -45,7 +45,7 @@ export function HomeScreen() {
   };
 
   return (
-    <div className="home" style={{ backgroundImage: `url(${media('fondo-bloqueo', LOCK_WALLPAPER)})` }}>
+    <div className="home" style={{ backgroundImage: `url("${media('fondo-bloqueo', LOCK_WALLPAPER)}")` }}>
       <div className="home-shade" />
       <nav className="app-grid" aria-label="Aplicaciones">
         {APP_META.map((a) => {
