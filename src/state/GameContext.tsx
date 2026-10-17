@@ -1,5 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useReducer, useRef, useState, type ReactNode } from 'react';
 import { clueById } from '../data/clues';
+import { INLINE_MEDIA } from '../lib/inlineMedia';
 import { playSound, type SoundName } from '../lib/sound';
 import type { AppId } from '../types';
 import { initialState, loadState, reducer, saveState, type Action, type GameState } from './game';
@@ -45,6 +46,9 @@ export type PanelTab = 'caso' | 'pistas' | 'cronologia' | 'reconstruccion' | 'hi
 
 const Ctx = createContext<GameContextValue | null>(null);
 
+/** Ruta de una imagen, o su versión incrustada si existe. */
+export const resolveMedia = (path: string) => INLINE_MEDIA[path] ?? path;
+
 export function GameProvider({ children }: { children: ReactNode }) {
   const [state, rawDispatch] = useReducer(reducer, undefined, () => {
     const saved = loadState();
@@ -77,6 +81,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
 
   // Manifiesto de imágenes (permite sustituir ilustraciones sin tocar el código).
   useEffect(() => {
+    if (Object.keys(INLINE_MEDIA).length) return; // versión de un solo archivo: imágenes ya incrustadas
     fetch('media/manifest.json')
       .then((r) => (r.ok ? r.json() : {}))
       .then((m: Record<string, string>) => setManifest(m ?? {}))
@@ -119,7 +124,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
     if (app) setView('telefono');
   }, []);
 
-  const media = useCallback((id: string, fallback: string) => manifest[id] ?? fallback, [manifest]);
+  const media = useCallback((id: string, fallback: string) => resolveMedia(manifest[id] ?? fallback), [manifest]);
 
   const value = useMemo<GameContextValue>(
     () => ({

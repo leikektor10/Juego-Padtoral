@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "fotos": "node scripts/generar-fotos.mjs",
-    "matriz": "vite-node scripts/generar-matriz.ts"
+    "matriz": "vite-node scripts/generar-matriz.ts",
+    "build:web": "vite build --mode single && node scripts/empaquetar-web.mjs"
   },
   "dependencies": {
     "react": "18.3.1",

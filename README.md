@@ -34,6 +34,7 @@ La carpeta `dist/` es una web estática: se puede subir tal cual a cualquier ser
 
 | Orden | Para qué sirve |
 |---|---|
+| `npm run build:web` | Genera `dist-web/ultima-conexion.html`: el juego entero en **un solo archivo** (con las ilustraciones dentro), listo para publicar o compartir. |
 | `npm test` | Pruebas de coherencia narrativa y de la lógica del juego (Vitest). |
 | `npm run typecheck` | Comprobación de tipos de TypeScript. |
 | `npm run fotos` | Regenera las ilustraciones provisionales de `public/media/fotos`. |

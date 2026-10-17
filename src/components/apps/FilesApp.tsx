@@ -4,7 +4,7 @@ import { clueById } from '../../data/clues';
 import { files } from '../../data/records';
 import { fmtDateTime } from '../../lib/format';
 import { isAvailable } from '../../state/game';
-import { useGame } from '../../state/GameContext';
+import { resolveMedia, useGame } from '../../state/GameContext';
 import type { FileItem } from '../../types';
 import { Icon } from '../Icons';
 import { AppHeader } from './AppHeader';
@@ -84,7 +84,7 @@ export function FilesApp() {
               {fmtDateTime(file.deleted.deletedAt)}
             </p>
           )}
-          {file.image && <img className="file-image" src={file.image} alt={file.name} />}
+          {file.image && <img className="file-image" src={resolveMedia(file.image)} alt={file.name} />}
           {audio && <AudioPlayer audio={audio} />}
           {file.content && (
             <div className={`file-doc ${file.kind}`}>
