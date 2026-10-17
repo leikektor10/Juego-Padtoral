@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0.07 0"/>
+  </filter>
+  <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+    <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+  <filter id="blurry"><feGaussianBlur stdDeviation="5 2"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="1200" height="900" fill="#e8e0cf"/>
+<rect x="0" y="0" width="98" height="98" fill="#f3efe4"/><rect x="0" y="100" width="98" height="98" fill="#f3efe4"/><rect x="100" y="0" width="98" height="98" fill="#f3efe4"/><rect x="100" y="100" width="98" height="98" fill="#f3efe4"/><rect x="200" y="0" width="98" height="98" fill="#f3efe4"/><rect x="200" y="100" width="98" height="98" fill="#f3efe4"/><rect x="300" y="0" width="98" height="98" fill="#f3efe4"/><rect x="300" y="100" width="98" height="98" fill="#f3efe4"/><rect x="400" y="0" width="98" height="98" fill="#f3efe4"/><rect x="400" y="100" width="98" height="98" fill="#f3efe4"/><rect x="500" y="0" width="98" height="98" fill="#f3efe4"/><rect x="500" y="100" width="98" height="98" fill="#f3efe4"/><rect x="600" y="0" width="98" height="98" fill="#f3efe4"/><rect x="600" y="100" width="98" height="98" fill="#f3efe4"/><rect x="700" y="0" width="98" height="98" fill="#f3efe4"/><rect x="700" y="100" width="98" height="98" fill="#f3efe4"/><rect x="800" y="0" width="98" height="98" fill="#f3efe4"/><rect x="800" y="100" width="98" height="98" fill="#f3efe4"/><rect x="900" y="0" width="98" height="98" fill="#f3efe4"/><rect x="900" y="100" width="98" height="98" fill="#f3efe4"/><rect x="1000" y="0" width="98" height="98" fill="#f3efe4"/><rect x="1000" y="100" width="98" height="98" fill="#f3efe4"/><rect x="1100" y="0" width="98" height="98" fill="#f3efe4"/><rect x="1100" y="100" width="98" height="98" fill="#f3efe4"/>
+<rect x="900" y="230" width="220" height="140" fill="#cfd8dc"/><rect x="920" y="250" width="180" height="100" fill="#90a4ae"/>
+<g opacity="1"><rect x="249.648" y="801.6" width="160.704" height="86.80000000000001" rx="25.11" fill="#4b3f5e"/><rect x="259.692" y="876" width="50.22" height="124" rx="16.740000000000002" fill="#4b3f5e"/><rect x="350.088" y="876" width="50.22" height="124" rx="16.740000000000002" fill="#4b3f5e"/><rect x="218.679" y="495.93999999999994" width="36.828" height="332.4843" rx="18.414" fill="#8a5aa8"/><circle cx="237.09300000000002" cy="825.7892999999999" r="18.414" fill="#e0ae88"/><rect x="404.493" y="495.93999999999994" width="36.828" height="332.4843" rx="18.414" fill="#8a5aa8"/><circle cx="422.907" cy="825.7892999999999" r="18.414" fill="#e0ae88"/><rect x="246.3" y="488.03499999999997" width="167.4" height="338.365" rx="46.87200000000001" fill="#8a5aa8"/><rect x="311.555" y="472.22499999999997" width="36.89" height="26.35" fill="#e0ae88"/><circle cx="269.395" cy="443.24" r="23.715000000000003" fill="#3a2416"/><circle cx="390.605" cy="443.24" r="23.715000000000003" fill="#3a2416"/><circle cx="330" cy="432.7" r="52.7" fill="#e0ae88"/><path d="M277.3 432.7 A52.7 52.7 0 0 1 382.7 432.7 Q330 408.985 277.3 432.7Z" fill="#3a2416"/><circle cx="319.46" cy="433.75399999999996" r="4.743" fill="#2a1d16"/><circle cx="356.34999999999997" cy="433.75399999999996" r="4.743" fill="#2a1d16"/><path d="M327.36499999999995 459.05 L348.445 459.05" stroke="#7a3b2e" stroke-width="3.6890000000000005" stroke-linecap="round"/></g>
+<rect y="560" width="1200" height="340" fill="#c19a6b"/><rect y="560" width="1200" height="16" fill="#a77f52"/>
+<rect x="160" y="600" width="300" height="200" fill="#fff" transform="rotate(-8 310 700)"/>
+<line x1="180" y1="640" x2="430" y2="620" stroke="#90a4ae" stroke-width="2"/><line x1="180" y1="666" x2="430" y2="646" stroke="#90a4ae" stroke-width="2"/><line x1="180" y1="692" x2="430" y2="672" stroke="#90a4ae" stroke-width="2"/><line x1="180" y1="718" x2="430" y2="698" stroke="#90a4ae" stroke-width="2"/><line x1="180" y1="744" x2="430" y2="724" stroke="#90a4ae" stroke-width="2"/><line x1="180" y1="770" x2="430" y2="750" stroke="#90a4ae" stroke-width="2"/>
+<rect x="440" y="700" width="140" height="14" rx="7" fill="#f4c542" transform="rotate(20 510 707)"/>
+<g transform="rotate(3 840 720)">
+<rect x="650" y="470" width="480" height="370" fill="#fffdf6" stroke="#ddd" stroke-width="3"/>
+<text x="890" y="530" font-family="'Segoe Print','Bradley Hand','Comic Sans MS','Chalkboard SE',cursive" font-size="30" fill="#d35400" font-weight="700" text-anchor="middle" letter-spacing="0">MI HERMANO EL QUE ME CUIDA</text>
+<circle cx="820" cy="610" r="36" fill="#e8b48c" stroke="#333" stroke-width="3"/><circle cx="795" cy="582" r="12" fill="#3b2412"/><circle cx="805" cy="574" r="12" fill="#3b2412"/><circle cx="815" cy="582" r="12" fill="#3b2412"/><circle cx="825" cy="574" r="12" fill="#3b2412"/><circle cx="835" cy="582" r="12" fill="#3b2412"/><circle cx="845" cy="574" r="12" fill="#3b2412"/>
+<path d="M790 650 L850 650 L870 760 L770 760Z" fill="#3f9b4f" stroke="#333" stroke-width="3"/>
+<path d="M790 650 L730 780 L800 760Z" fill="#2e7d32" stroke="#333" stroke-width="3"/>
+<circle cx="980" cy="660" r="28" fill="#e8b48c" stroke="#333" stroke-width="3"/><circle cx="950" cy="650" r="12" fill="#3b2412"/><circle cx="1010" cy="650" r="12" fill="#3b2412"/>
+<path d="M955 690 L1005 690 L1020 770 L940 770Z" fill="#9b59b6" stroke="#333" stroke-width="3"/>
+<path d="M865 700 Q910 690 945 710" stroke="#333" stroke-width="5" fill="none"/>
+<circle cx="700" cy="600" r="30" fill="#f9d71c"/>
+</g>
+<rect width="1200" height="900" fill="#ffd9a0" opacity="0.08"/><rect width="1200" height="900" fill="url(#vig)"/><rect width="1200" height="900" filter="url(#grain)"/>
+</svg>

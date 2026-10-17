@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0.07 0"/>
+  </filter>
+  <radialGradient id="vig" cx="50%" cy="50%" r="75%">
+    <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.45"/>
+  </radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+  <filter id="blurry"><feGaussianBlur stdDeviation="5 2"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="1200" height="900" fill="#c9c2b5"/>
+<rect y="520" width="1200" height="380" fill="#9c958a"/>
+<rect x="40" y="70" width="1120" height="300" fill="#fbf8f1" stroke="#ddd" stroke-width="4"/>
+<text x="70" y="230" font-family="'Helvetica Neue',Arial,sans-serif" font-size="150" fill="#2f6f9f" font-weight="700" text-anchor="start" letter-spacing="0">FIESTA DON B</text>
+<path d="M70 260 q60 30 140 0 t160 0" stroke="#e67e22" stroke-width="14" fill="none"/>
+<circle cx="1050" cy="220" r="40" fill="#f1c40f" opacity="0.8"/><circle cx="1100" cy="290" r="18" fill="#e74c3c" opacity="0.8"/>
+<g opacity="1"><rect x="279.6" y="915" width="126.36" height="559" rx="42.12" fill="#3a3a4a"/><rect x="434.04" y="915" width="126.36" height="559" rx="42.12" fill="#3a3a4a"/><ellipse cx="342.78" cy="1500" rx="84.24" ry="26" fill="#1d1d22"/><ellipse cx="497.22" cy="1500" rx="84.24" ry="26" fill="#1d1d22"/><rect x="186.585" y="443.1" width="77.22" height="524.7644999999999" rx="38.61" fill="#c98a2b"/><circle cx="225.195" cy="962.3394999999998" r="38.61" fill="#b9825f"/><rect x="576.195" y="443.1" width="77.22" height="524.7644999999999" rx="38.61" fill="#c98a2b"/><circle cx="614.805" cy="962.3394999999998" r="38.61" fill="#b9825f"/><rect x="244.5" y="426.52500000000003" width="351" height="540.4749999999999" rx="98.28000000000002" fill="#c98a2b"/><rect x="381.325" y="393.375" width="77.35000000000001" height="55.25000000000001" fill="#b9825f"/><path d="M300.65999999999997 310.5 Q287.4 520.45 342.65 542.5500000000001 L497.35 542.5500000000001 Q552.6 520.45 539.34 310.5Z" fill="#1f140f"/><circle cx="420" cy="310.5" r="110.50000000000001" fill="#b9825f"/><path d="M303.97499999999997 304.975 A116.02500000000002 116.02500000000002 0 0 1 536.025 304.975 Q442.1 227.625 303.97499999999997 304.975Z" fill="#1f140f"/><circle cx="386.84999999999997" cy="312.71" r="9.945" fill="#2a1d16"/><circle cx="464.2" cy="312.71" r="9.945" fill="#2a1d16"/><path d="M390.16499999999996 349.175 Q425.525 404.425 460.885 349.175Z" fill="#6b2a22"/></g>
+<g opacity="1"><rect x="637.4399999999999" y="906" width="128.304" height="567.6" rx="42.768" fill="#2e3542"/><rect x="794.256" y="906" width="128.304" height="567.6" rx="42.768" fill="#2e3542"/><ellipse cx="701.592" cy="1500" rx="85.536" ry="26.400000000000002" fill="#1d1d22"/><ellipse cx="858.408" cy="1500" rx="85.536" ry="26.400000000000002" fill="#1d1d22"/><rect x="542.9939999999999" y="426.84" width="78.408" height="532.8378" rx="39.204" fill="#3f6b4f"/><circle cx="582.198" cy="954.0678" r="39.204" fill="#d9a37e"/><rect x="938.5980000000001" y="426.84" width="78.408" height="532.8378" rx="39.204" fill="#3f6b4f"/><circle cx="977.802" cy="954.0678" r="39.204" fill="#d9a37e"/><rect x="601.8" y="410.01" width="356.40000000000003" height="548.79" rx="99.79200000000002" fill="#3f6b4f"/><rect x="740.73" y="376.34999999999997" width="78.53999999999999" height="56.1" fill="#d9a37e"/><circle cx="780" cy="292.2" r="112.2" fill="#d9a37e"/><circle cx="701.46" cy="230.48999999999998" r="47.124" fill="#2a1b12"/><circle cx="740.73" cy="196.82999999999998" r="47.124" fill="#2a1b12"/><circle cx="785.61" cy="185.60999999999999" r="47.124" fill="#2a1b12"/><circle cx="830.49" cy="200.196" r="47.124" fill="#2a1b12"/><circle cx="864.15" cy="236.1" r="47.124" fill="#2a1b12"/><circle cx="684.63" cy="275.37" r="47.124" fill="#2a1b12"/><circle cx="878.736" cy="275.37" r="47.124" fill="#2a1b12"/><circle cx="735.12" cy="294.444" r="10.098" fill="#2a1d16"/><circle cx="813.66" cy="294.444" r="10.098" fill="#2a1d16"/><path d="M738.486 331.46999999999997 Q774.39 387.57 810.294 331.46999999999997Z" fill="#6b2a22"/></g>
+<circle cx="380" cy="420" r="16" fill="#2f6f9f" opacity="0.85"/><circle cx="830" cy="430" r="14" fill="#e67e22" opacity="0.85"/><circle cx="755" cy="400" r="9" fill="#f1c40f"/>
+<rect x="900" y="720" width="300" height="80" rx="40" fill="#3f6b4f" transform="rotate(-25 1050 760)"/>
+<rect width="1200" height="900" fill="#ffe0b0" opacity="0.08"/><rect width="1200" height="900" fill="url(#vig)"/><rect width="1200" height="900" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "_instrucciones": "Para sustituir una ilustración provisional por una fotografía original: copia el archivo en public/media/fotos/ y cambia aquí la ruta del identificador correspondiente. No hace falta tocar el código. Si cambia el encuadre, revisa los puntos interactivos (hotspots) en src/data/photos.ts.",
+  "fondo-bloqueo": "media/fotos/fondo-bloqueo.svg",
+  "p01": "media/fotos/p01-campamento-lago.svg",
+  "p02": "media/fotos/p02-hoguera.svg",
+  "p03": "media/fotos/p03-colador.svg",
+  "p04": "media/fotos/p04-pequenos.svg",
+  "p05": "media/fotos/p05-cajas.svg",
+  "p06": "media/fotos/p06-comic-nadie.svg",
+  "p07": "media/fotos/p07-boletin.svg",
+  "p08": "media/fotos/p08-videollamada.svg",
+  "p09": "media/fotos/p09-nevera.svg",
+  "p10": "media/fotos/p10-historia-escape.svg",
+  "p11": "media/fotos/p11-convivencia.svg",
+  "p12": "media/fotos/p12-mirador.svg",
+  "p13": "media/fotos/p13-lucia-deberes.svg",
+  "p14": "media/fotos/p14-pancarta.svg",
+  "p15": "media/fotos/p15-cartel.svg",
+  "p16": "media/fotos/p16-almacen.svg",
+  "p17": "media/fotos/p17-sillas.svg"
+}
